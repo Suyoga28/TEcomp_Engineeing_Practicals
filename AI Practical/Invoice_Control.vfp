@@ -1,0 +1,35 @@
+<apex:page controller="Invoice_Control">
+    <apex:form>
+        <apex:pageMessages />
+
+        <label>Amount:</label>
+        <apex:inputText value="{!amount}" /><br/>
+
+        <label>Customer Email:</label>
+        <apex:inputText value="{!customerEmail}" /><br/>
+
+        <apex:commandButton value="Create Invoice" action="{!createInvoice}" rerender="msg,invoiceList"/>
+
+        <apex:outputPanel id="msg">
+            <apex:outputText value="{!message}" style="color:green;font-weight:bold;" />
+        </apex:outputPanel>
+
+        <apex:outputPanel id="invoiceList" style="margin-top: 20px;">
+            <apex:outputText rendered="{!ISNULL(customerInvoices) || customerInvoices.size == 0}" value="No invoices found for this customer." />
+            
+            <apex:dataTable value="{!customerInvoices}" var="inv" rendered="{!NOT(ISNULL(customerInvoices)) && customerInvoices.size > 0}"
+                border="1" cellpadding="5" cellspacing="0" style="width: 100%; text-align: center;">
+    			<apex:column headerValue="Invoice Name">
+        			<apex:outputText value="{!inv.Name}" />
+    			</apex:column>
+    			<apex:column headerValue="Amount">
+        			<apex:outputText value="{!inv.Amount__c}" />
+    			</apex:column>
+    			<apex:column headerValue="Due Date">
+        			<apex:outputText value="{!inv.Due_Date__c}" />
+    			</apex:column>
+</apex:dataTable>
+
+        </apex:outputPanel>
+    </apex:form>
+</apex:page>

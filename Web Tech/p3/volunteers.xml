@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="volunteers.xsl"?>
+<!DOCTYPE volunteers SYSTEM "volunteers.dtd">
+<volunteers>
+    <volunteer>
+        <name>John Doe</name>
+        <age>30</age>
+        <gender>Male</gender>
+        <role>Teacher</role>
+        <experience>5 years</experience>
+    </volunteer>
+    <volunteer>
+        <name>Jane Smith</name>
+        <age>28</age>
+        <gender>Female</gender>
+        <role>Medical Assistant</role>
+        <experience>3 years</experience>
+    </volunteer>
+</volunteers>

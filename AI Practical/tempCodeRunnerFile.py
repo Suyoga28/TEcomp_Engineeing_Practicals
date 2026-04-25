@@ -1,0 +1,1 @@
+open_list.put((0, start)) 

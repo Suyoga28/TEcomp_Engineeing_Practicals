@@ -1,0 +1,7 @@
+<!ELEMENT volunteers (volunteer+)>
+<!ELEMENT volunteer (name, age, gender, role, experience)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT role (#PCDATA)>
+<!ELEMENT experience (#PCDATA)>

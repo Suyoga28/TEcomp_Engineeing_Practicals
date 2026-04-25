@@ -1,0 +1,61 @@
+
+--- Chat with python -u "c:\Users\Gaikwad\Desktop\TE Practical\AI Practical\F_chatbot.py" on 2025-05-01 07:56:03.636532 ---
+python -u "c:\Users\Gaikwad\Desktop\TE Practical\AI Practical\F_chatbot.py": python -u "c:\users\gaikwad\desktop\te practical\ai practical\f_chatbot.py"
+Bot: I'm sorry, I didn't quite get that. Please try asking in a different way or type 'help'.
+
+--- Chat with Suyoga on 2025-05-01 07:56:21.187057 ---
+Suyoga: help
+Bot: Here are some things you can ask about:
+- Orders
+- Refunds
+- Shipping
+- Support
+- Payment
+- Account
+- Type 'quiz' to play a fun game!
+Suyoga: quiz
+Bot: Hope you enjoyed the quiz! How else can I assist you?
+Suyoga: help
+Bot: Here are some things you can ask about:
+- Orders
+- Refunds
+- Shipping
+- Support
+- Payment
+- Account
+- Type 'quiz' to play a fun game!
+Suyoga: orders
+Bot: You can track or place orders through your account on our website.
+Suyoga: python -u "c:\users\gaikwad\desktop\te practical\ai practical\f_chatbot.py"
+Bot: I'm sorry, I didn't quite get that. Please try asking in a different way or type 'help'.
+
+--- Chat with Suyoga on 2025-05-01 08:01:28.113938 ---
+Suyoga: help
+Bot: Here are some things you can ask about:
+- Orders
+- Refunds
+- Shipping
+- Support
+- Payment
+- Account
+- Type 'quiz' to play a fun game!
+Suyoga: shipping
+Bot: Standard shipping takes 3-5 business days. Express options are available at checkout.
+Suyoga: ok
+Bot: I'm sorry, I didn't quite get that. Please try asking in a different way or type 'help'.
+Suyoga: quite
+Bot: I'm sorry, I didn't quite get that. Please try asking in a different way or type 'help'.
+Suyoga: quit
+Bot: I'm sorry, I didn't quite get that. Please try asking in a different way or type 'help'.
+Suyoga: exit
+Bot: Thank you for chatting with us. Have a great day!
+
+--- Chat with Suyoga on 2025-05-01 08:13:59.322358 ---
+Suyoga: order
+Bot: You can track or place orders through your account on our website.
+Suyoga: ok
+Bot: Oops! It seems I didn’t understand that. Could you try asking it differently or type 'help'.
+Suyoga: thank you
+Bot: Thank you! I'm glad to hear that!  How else can I assist you today?
+Suyoga: exit
+Bot: Thank you for chatting with us. Have a great day!
